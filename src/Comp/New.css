@@ -1,0 +1,107 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 13px;
+   
+}
+li
+{
+    list-style: none;
+}
+
+.ico{
+    color: red;
+}
+a:hover{
+    color: red;
+}
+.op{
+    padding: 5px 80px;
+    border-radius: 7px;
+    border: 1px solid #ccc;
+}
+.btn
+{
+    border-radius: 0px;
+    padding:  10px 50px;
+    font-weight: bold;
+}
+.btn::before{
+    content: '';
+
+}
+element.style {
+    position: absolute;
+    inset: 0px auto auto 0px;
+    margin: 0px;
+    transform: translate3d(0px, 36px, 0px);
+}
+
+.ol{
+    position: absolute;
+    top: 4px;
+    left: 20px;
+}
+.lo{
+    position: relative;
+    top: 4px;
+    left: 50px;
+}
+
+.olp{
+    background: red;
+   height: 90px;
+   width: 250px;
+   border-radius: 7px;
+}
+.olp{
+    position: relative;
+    
+}
+
+.moi{
+    height: 300px;
+}
+.btn{
+  padding: 10px 98px;   
+  border-radius: 10px;
+  margin-top: 1px;
+}
+.olp:hover{
+    background: rgb(14, 14, 51);
+}
+.bo{
+    height: 1990px;
+}
+.opp{
+    width:500px
+}
+
+.wrr{
+  width: 100%;
+}
+
+@media screen and(max-width:430px){
+    .oik{
+      
+       text-align: center;
+    }
+    .wio {
+        width: 336px;
+    }
+}

@@ -1,0 +1,225 @@
+
+
+.nu {
+    padding: 10px 100px;
+}
+.get{
+    width: 500px;
+    height: 740px;
+
+}
+
+.btn1{
+    background-color: #122C91;
+ border: #122C91;
+color: white;
+}
+.btn1:hover{
+    background-color: skyblue;
+}
+.kl{
+    height: 500px;
+}
+.kl{
+    background-image: url(https://amazcart.ischooll.com/public/frontend/amazy/img/banner/about_cta_bg.jpg);
+    background-repeat:no-repeat ;
+}
+.btn2{
+    border:1px solid red;
+    padding: 10px 30px;
+    background: red;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn2:hover{
+    background: #122C91;
+    border: blue;
+}
+.kll{
+    width: 500px;
+    margin-left: 350px;
+    padding: 40px 0px;
+   margin-top: 20px;
+}
+.he{
+    height: 200px;
+}
+.red{
+    background: red;
+    padding: 30px 10px;
+}
+.pg{
+    position: relative;
+    top:0px ;
+    bottom:0 ;
+}
+.wop{
+  width: 1000px;
+  margin-top: 20px;
+}
+
+
+/* produts ko css */
+.img{
+    width: 300px;
+    height: 300px;
+    gap:2px;
+    position: relative;
+    top: 10px;
+   z-index: 0;
+   
+}
+.img:hover{
+    scale: 1.03;
+   transition: 0.9s ease-in-out;
+
+   
+}
+
+.bord{
+    width: 400px;
+    border: 1px solid #ccc;
+    position: relative;
+   height: 500px;
+   
+}
+
+.warn{
+    background-color: rgb(212, 212, 45);
+   width: 150px;
+   border-radius: 30px;
+    height: 30px;
+    position: relative;
+    bottom: 4px;
+    left: 118px;
+}
+
+.title{
+    padding-top: 20px;
+    text-transform: uppercase;
+    color: rgb(17, 17, 145);
+    
+}
+
+.shop{
+    color: white;
+    background-color: red;
+    width: 50px;
+   
+}
+
+.shop:hover{
+    background-color: rgb(14, 14, 102);
+}
+.halka{
+    margin-top: 40px;
+}
+
+/*  */
+
+.detai{
+    width: 500px;
+   
+ 
+    
+}
+.upper{
+   text-transform: uppercase;
+}
+
+.chio{
+    border: 1px solid #ccc;
+    padding: 20px;
+   
+}
+.car{
+    padding: 40px 10px;
+    margin-left: 20px;
+}
+.wid{
+    width: 800px;
+}
+.btnlo{
+    padding: 5px 30px;
+    border-radius: 7px;
+    color: red;
+    background: white;
+    border: 1px solid red;
+}
+.btnlo:hover{
+background-color: red;
+color: white;
+
+}
+.it{
+ width: 200px;
+ position: relative;
+ z-index: 4;
+ top: -505px;
+ left: -108px;
+}
+
+.btnp{
+    color: white;
+    padding: 10px 200px;
+    border: red 1px solid;
+    background-color: red;
+}
+.btnp:hover{
+    background-color: rgb(18, 18, 107);
+    border: #122C91 1px solid;
+}
+.order{
+    padding: 10px 200px;
+}
+.lkc{
+    height: 600px;
+}
+.mkc{
+    line-height: 50px;
+    padding-top: 80px;
+}
+
+.wio{
+    width: 500px;
+}
+
+.mse{
+    margin-left: 50px;
+    margin-top: 150px;
+}
+.ols{
+ padding: 5px 60px;
+
+}
+.okay{
+    padding: 5px 60px;
+    border: 1px solid red;
+    background-color: red;
+    color: white;
+}
+.okay:hover{
+    border:1px solid blue;
+    background-color: blue;
+}
+.okayp{
+    margin-left: 339px;
+}
+
+@media screen and (max-width:430px){
+   .detai{
+    width: 385px;
+   }
+   .okayp{
+    margin: 0;
+    
+   }
+   .mapk{
+    margin: auto;
+   }
+   .wop {
+    width: 70%;
+    margin-top: 20px;
+}
+}
